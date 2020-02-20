@@ -21,13 +21,6 @@ a {
     height: 50px;
 }
 
-#crew img {
+#crew .img {
     float: left;
-}
-
-#crew .crew_card {
-}
-
-#crew .crew_card_text {
-    float: right;
 }
