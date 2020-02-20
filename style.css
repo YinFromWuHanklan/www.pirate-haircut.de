@@ -1,7 +1,11 @@
 body {
     background-color: black;
+    color: lightgray;
 }
 
-h1, h2, p {
-    color: lightgray;
+h1, h2 {
+    margin-top: 30px;
+}
+p {
+    margin-top: 20px;
 }
