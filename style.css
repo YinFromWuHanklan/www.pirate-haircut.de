@@ -4,10 +4,13 @@ body {
 }
 
 h1, h2 {
+    font-family: 'Caladea';
+    font-weight: 700;
     margin-top: 30px;
 }
 
 p {
+    font-family: 'Lato';
     margin-top: 20px;
 }
 
