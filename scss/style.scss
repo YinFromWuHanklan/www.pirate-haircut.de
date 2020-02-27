@@ -5,6 +5,10 @@ $font_title: 'Caladea';
 $font_text: 'Lato';
 
 // main
+* {
+    box-sizing: border-box;
+}
+
 body {    
     background-color: black;
     color: lightgray;
@@ -30,8 +34,17 @@ p {
 
 #crew {
     .crew_card {
-        border: 1px solid $secondary_color;
+        margin-top: 20px;
         padding: 0;
+        img {
+            width: 100%;
+        }
+        .crew_card_text {
+            padding: 20px;
+            p {
+                margin-top: 0;
+            }
+        }
     }
 }
 
