@@ -1,6 +1,7 @@
 // variables
-$secondary_color: #343a40;
+$secondary_color: #343A40;
 $link_color: #01DF74;
+$border_color: #A4A4A4;
 
 $font_title: 'Caladea';
 $font_text: 'Lato';
@@ -35,7 +36,22 @@ a, a:hover {
     color: $link_color;
 }
 
+.footer {
+    background-color: $secondary_color;
+    height: 50px;
+}
+
+
 // elements
+#intro {
+    img {
+        width: 100%;
+        margin: 15px 0;
+        padding: 20px 0;
+        border-top: 1px solid $border_color;
+        border-bottom: 1px solid $border_color;
+    }
+}
 
 #crew {
     .crew_card {
@@ -45,15 +61,12 @@ a, a:hover {
             width: 100%;
         }
         .crew_card_text {
-            padding: 20px;
+            margin: 10px;
+            padding: 15px;
+            border-bottom: 1px solid $border_color;
             p {
                 margin-top: 0;
             }
         }
     }
-}
-
-.footer {
-    background-color: $secondary_color;
-    height: 50px;
 }
