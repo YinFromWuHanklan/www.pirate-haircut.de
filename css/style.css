@@ -27,7 +27,7 @@ a, a:hover {
 
 .footer {
   background-color: #343A40;
-  height: 50px;
+  height: auto;
 }
 
 #intro img {
