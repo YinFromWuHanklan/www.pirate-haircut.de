@@ -21,6 +21,10 @@ p {
   margin-top: 20px;
 }
 
+a, a:hover {
+  color: #01DF74;
+}
+
 #crew .crew_card {
   margin-top: 20px;
   padding: 0;

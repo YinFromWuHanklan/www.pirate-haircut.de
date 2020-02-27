@@ -1,5 +1,6 @@
 // variables
 $secondary_color: #343a40;
+$link_color: #01DF74;
 
 $font_title: 'Caladea';
 $font_text: 'Lato';
@@ -28,6 +29,10 @@ h1, h2 {
 p {
     font-family: $font_text;
     margin-top: 20px;
+}
+
+a, a:hover {
+    color: $link_color;
 }
 
 // elements
