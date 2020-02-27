@@ -30,6 +30,11 @@ a, a:hover {
   height: auto;
 }
 
+#intro img.logo {
+  width: 200px;
+  height: auto;
+  border: none;
+}
 #intro img {
   width: 100%;
   margin: 15px 0;

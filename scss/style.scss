@@ -44,6 +44,12 @@ a, a:hover {
 
 // elements
 #intro {
+    img.logo {
+        width: 200px;
+        height: auto;
+        border: none;
+        
+    }
     img {
         width: 100%;
         margin: 15px 0;
