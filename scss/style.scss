@@ -6,14 +6,17 @@ $border_color: #A4A4A4;
 $font_title: 'Caladea';
 $font_text: 'Lato';
 
+$navbar_height: 58px;
+
 // main
-* {
-    box-sizing: border-box;
-}
 
 body {    
     background-color: black;
     color: lightgray;
+}
+
+.spacer_navbar {
+    margin-top: $navbar_height;
 }
 
 // fonts
