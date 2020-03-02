@@ -10,6 +10,10 @@ $navbar_height: 58px;
 
 // main
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {    
     background-color: black;
     color: lightgray;
